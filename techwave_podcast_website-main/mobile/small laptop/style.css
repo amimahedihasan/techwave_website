@@ -1,0 +1,140 @@
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+
+
+/* Navbar related Style */
+
+header{
+   
+    padding: 1rem;
+}
+
+
+
+
+
+/* hero related style */
+
+.hero-container{
+    padding:1rem;
+
+}
+
+
+.circle-img{
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transform: rotate(360deg, 1s infinity);
+}
+
+.microphone{
+    position: absolute;
+    z-index: 3;
+}
+
+
+.hero{
+    background-image: url('../images/hero-img-1200.png');
+    width: 100%;
+    height:auto;
+}
+
+
+.hero-title{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.hero-heading{
+    font-size:3.75rem ;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+
+.hero-description{
+    font-size:1rem ;
+    color: white;
+    margin-bottom: 1.5rem;
+    opacity: 80%;
+}
+
+.action-btn{
+    gap: 0.5rem;
+}
+
+
+
+
+.podcast-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+
+/* choose related style */
+
+.choose{
+    padding: 7rem 12rem;
+}
+
+.choose-heading{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.choose-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.headphone{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+.mobile{
+    grid-column: span 1;
+}
+
+.global{
+    grid-column: span 1;
+}
+
+
+.exclusive{
+    grid-column: span 1;
+}
+
+.resources{
+   grid-column: span 2;
+}
+
+
+/* Feature related style */
+.feature{
+    padding: 2rem 2rem;
+
+}
+
+
+/* footer related style */
+footer{
+    background-image: url('../images/footer\ bg\ f.png');
+    width: 100%;
+    height: auto;
+}
+
+.footer-container{
+    padding: 5rem 5rem;
+}
+
+
+}
+
